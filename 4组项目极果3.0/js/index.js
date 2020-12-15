@@ -150,7 +150,6 @@ $(document).ready(function() {
             }
         }, 100);
     });
-
     //加载更多
     var timer_5 = null;
     $('.main_more>p').on('click', function() {

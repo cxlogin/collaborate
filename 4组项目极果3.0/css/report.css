@@ -49,7 +49,7 @@
   padding: 20px 0 0 20px;
   border-radius: 0 0 8px 8px;
   box-sizing: border-box;
-  background-color: rgba(242, 238, 235, 0.9);
+  background-color: rgba(151, 147, 144, 0.9);
   position: absolute;
   bottom: 0;
 }
@@ -113,7 +113,6 @@
 }
 .mid_area .mid_main .mid_main_lf .mid_main_lfJz {
   height: 30px;
-  cursor: pointer;
   margin: 15px 0;
 }
 .mid_area .mid_main .mid_main_lf .mid_main_lfJz span {

@@ -1,5 +1,4 @@
-[
-    {
+[{
         "img": "./image/img/bg1.jpg",
         "text": "空气净化器里面学问多得惊呆你，你选对了吗?",
         "uName": "土豆",
@@ -15,7 +14,9 @@
         "uName": "土豆",
         "endTime": "2020-8-27",
         "info_ty": "关于云马智行车C1还有8篇报告，点击查看",
+        "image": "./image/icon/xin.png",
         "totalnum": 3,
+        "image": "./image/icon/reply.png",
         "num": 20,
         "apply": 1392
     },
