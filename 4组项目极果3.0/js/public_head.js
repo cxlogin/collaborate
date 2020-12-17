@@ -1,4 +1,5 @@
 // 点击弹出登录
+
 $('.head_login').on('click', function() {
     $('.login_zz').toggle(); //遮罩
     $('.login').toggle();
@@ -7,6 +8,9 @@ $('#closd').on('click', function() {
     $('.login_zz').toggle(); //遮罩
     $('.login').toggle();
 });
+
+
+
 
 //返回顶部
 
@@ -76,8 +80,9 @@ $('.login_left').on('submit', function() {
             },
             success(json) {
                 // json = JSON.parse(json);
-                console.log(json);
+                // console.log(json);
                 alert(json.msg);
+                location = 'index.html'
                 if ($('#checkbox').is(':checked')) {        
                     localStorage.setItem('phone', $('#phone').val());        
                     localStorage.setItem('psd', $('#password').val());        
